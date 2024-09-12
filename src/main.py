@@ -24,5 +24,7 @@ def main():
     else:
         print("no hay estudiantes")
 
+    CursoControlador.eliminar(1)    
+
 if __name__ == "__main__":
     main()

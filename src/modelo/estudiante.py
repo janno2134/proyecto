@@ -12,6 +12,7 @@ class Estudiante(Model):
 
     class Meta:
        database = db
+       tabla_name = "Estudiante"
 
 
 
